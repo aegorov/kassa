@@ -1,5 +1,6 @@
 require_relative 'models/requests/base'
 require_relative 'models/requests/amount'
+require_relative 'models/requests/receipt'
 require_relative 'models/requests/confirmation'
 require_relative 'models/requests/payment'
 

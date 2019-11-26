@@ -8,6 +8,7 @@ module Kassa
           property :description
           property :metadata
           property :confirmation, coerce: Confirmation
+          property :receipt, coerce: Receipt
         end
       end
     end

@@ -17,6 +17,7 @@ module Kassa
           property :test
           property :paid
           property :cancellation_details, coerce: CancellationDetails
+          property :receipt_registration
 
           alias paid? paid
           alias test? test
