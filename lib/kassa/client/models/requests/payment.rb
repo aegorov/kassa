@@ -1,10 +1,11 @@
-module Kassa
+  module Kassa
   class Client
     module Models
       module Requests
         class Payment < Base
           property :amount, coerce: Amount
           property :capture, default: true
+          property :payment_token
           property :description
           property :metadata
           property :confirmation, coerce: Confirmation
